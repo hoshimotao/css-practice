@@ -1,0 +1,25 @@
+.nav__link {
+  color: blue;
+}
+
+.nav__link--active {
+  font-weight: bold;
+  color: black;
+}
+
+h1 {
+  animation: float 2000ms infinite alternate-reverse;
+  transition: all 1000ms;
+}
+h1:hover {
+  background-color: black;
+  color: white;
+}
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(20px);
+  }
+}
